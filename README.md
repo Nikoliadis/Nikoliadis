@@ -103,8 +103,8 @@ A rules engine that builds weekly rosters while respecting labour law (11-hour r
 
 - 🎮 **[Olympus RolePlay](https://github.com/Nikoliadis/Olympus-RolePlay)**: a Greek FiveM roleplay server with custom Lua/NUI resources and an automated installer, plus a companion **[Discord bot](https://github.com/Nikoliadis/Olympus-Discord-Bot)**
 - 📊 **[Employee attrition prediction](https://github.com/Nikoliadis/employee-attrition-prediction-system)**: an ML model for HR analytics
-- 💰 **[Personal finance manager](https://github.com/Nikoliadis/Java-Personal-Finance-Manager)** (Java) and **[banking system CLI](https://github.com/Nikoliadis/Banking-System-CLI-C)** (C)
-- 📱 **[iOS app](https://github.com/Nikoliadis/Simple-IOS-App)**, Discord music bots, automation scripts and more
+- 💰 **[Personal finance manager](https://github.com/Nikoliadis/Java-Personal-Finance-Manager)** in Java
+- 🤖 Discord bots, a Flask QR-code generator, automation scripts and security tooling experiments
 
 ---
 
