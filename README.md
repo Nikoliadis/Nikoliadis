@@ -82,24 +82,26 @@
 
 ### ⭐ Featured projects
 
+#### 🧠 [Focus-Buddy](https://github.com/Nikoliadis/Focus-Buddy): real-time study rooms with an AI assistant · [live](https://thefocusbuddy.org)
+My undergraduate thesis, running live at **thefocusbuddy.org**. Study rooms with a **server-synchronised Pomodoro timer**, live chat and presence over **Socket.IO**, and peer-to-peer **WebRTC** voice and screen sharing. It also has an **AI study assistant** (Groq, RAG, tool calling), stats and leaderboards. Built with **Flask + PostgreSQL**, with 130+ pytest cases, CI on GitHub Actions and Docker.
+
 #### 🤖 [CoreSync-AI](https://github.com/Nikoliadis/CoreSync-AI): AI fitness platform (web + iOS/Android + API)
-A full product monorepo. **FastAPI** backend with async SQLAlchemy, Alembic migrations, **Celery + Redis** background jobs and **pgvector** for AI retrieval. **Next.js** web app and **React Native / Expo** mobile app. Separate **CI pipelines** for API, web and mobile, all running in **Docker** behind **Nginx**.
+A full product monorepo with **124 endpoints, 57 tables and 1,000+ tests**. The **FastAPI** backend follows Clean Architecture, with async SQLAlchemy, Alembic, **Celery + Redis** and **pgvector** for the AI coach's retrieval. There's a **Next.js** web app and an offline-first **React Native / Expo** mobile app, separate CI pipelines for API, web and mobile, and Docker + Nginx, designed for Azure.
 
-#### 🧠 [Focus-Buddy](https://github.com/Nikoliadis/Focus-Buddy): Productivity app with ML & NLP
-A **Flask** app with authentication, rate limiting, real-time features (**Socket.IO**), analytics, plus an ML/NLP service built with **PyTorch, Transformers and scikit-learn**. It also includes Jupyter notebooks, **pytest** tests, Docker and GitHub Actions CI.
+#### 📚 [Educational website](https://github.com/Nikoliadis/nikoskaragiaourisnmeng-Site): production Django site · [live](https://nikoskaragiaourisnmeng.gr)
+A site for a vocational teacher that students use to download exam papers and study material. Built with **Django 6, Tailwind and HTMX**. It was audited against OWASP (score raised from 62 to 88/100) and uses Argon2id, CSP and safe file uploads. 109 tests. It runs on **Nginx + Gunicorn**.
 
-#### 📅 [shift-scheduler-demo](https://github.com/Nikoliadis/shift-scheduler-demo): Call center roster generator, used in production
+#### 📅 [shift-scheduler-demo](https://github.com/Nikoliadis/shift-scheduler-demo): call center roster generator, used in production
 A rules engine that builds weekly rosters while respecting labour law (11-hour rest, no 6-day weeks), coverage per project and each employee's constraints. It has Excel import/export, user permissions and hardened security (helmet, CSP, rate limiting, bcrypt). **~600 automated tests.** Built with Node.js, Express and MySQL.
 
-#### 🏥 [secure-hospital-management](https://github.com/Nikoliadis/secure-hospital-management): Security-first hospital system
-A **Spring Boot** application with **JWT** authentication, role-based access control and security tests.
+#### 🏥 [secure-hospital-management](https://github.com/Nikoliadis/secure-hospital-management): security-first hospital system
+**Spring Boot + Spring Security** with 4 roles under role-based access control, **AES-256 encryption** of diagnoses, a JWT-secured REST API, account lockout and audit logging.
 
 ---
 
 ### 🧪 More things I've built
 
-- 🎮 **[Olympus RolePlay](https://github.com/Nikoliadis/Olympus-RolePlay)**: a Greek FiveM roleplay server (Lua, QBox framework) with a companion **[Discord bot](https://github.com/Nikoliadis/Olympus-Discord-Bot)**
-- 🌐 **Educational website** for a teacher to share material with students (Django)
+- 🎮 **[Olympus RolePlay](https://github.com/Nikoliadis/Olympus-RolePlay)**: a Greek FiveM roleplay server with custom Lua/NUI resources and an automated installer, plus a companion **[Discord bot](https://github.com/Nikoliadis/Olympus-Discord-Bot)**
 - 📊 **[Employee attrition prediction](https://github.com/Nikoliadis/employee-attrition-prediction-system)**: an ML model for HR analytics
 - 💰 **[Personal finance manager](https://github.com/Nikoliadis/Java-Personal-Finance-Manager)** (Java) and **[banking system CLI](https://github.com/Nikoliadis/Banking-System-CLI-C)** (C)
 - 📱 **[iOS app](https://github.com/Nikoliadis/Simple-IOS-App)**, Discord music bots, automation scripts and more
