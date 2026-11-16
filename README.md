@@ -103,6 +103,8 @@ A rules engine that builds weekly rosters while respecting labour law (11-hour r
 
 - 🎮 **[Olympus RolePlay](https://github.com/Nikoliadis/Olympus-RolePlay)**: a Greek FiveM roleplay server with custom Lua/NUI resources and an automated installer, plus a companion **[Discord bot](https://github.com/Nikoliadis/Olympus-Discord-Bot)**
 - 📊 **[Employee attrition prediction](https://github.com/Nikoliadis/employee-attrition-prediction-system)**: an ML model for HR analytics
+- 🔎 **[Lost & Found Portal](https://github.com/Nikoliadis/lost-and-found-portal)**: Spring Boot + Spring Security web app with roles, image uploads and an admin dashboard
+- 🚇 **[Singapore MRT Route Finder](https://github.com/Nikoliadis/singapore-mrt-route-finder)**: graph data structure and Dijkstra's algorithm from scratch in Python
 - 💰 **[Personal finance manager](https://github.com/Nikoliadis/Java-Personal-Finance-Manager)** in Java
 - 🤖 Discord bots, a Flask QR-code generator, automation scripts and security tooling experiments
 
